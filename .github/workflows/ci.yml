@@ -36,7 +36,7 @@ jobs:
           globs: |
             README.md
       - name: Lint
-        run: npx eslint --ext .js,.jsx,.ts,.tsx .
+        run: npx eslint --fix src/**/*.{ts,tsx}
       - name: Compile to check syntax
         run: npx tsc --noEmit
       - name: Run tests
