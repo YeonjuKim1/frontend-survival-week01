@@ -81,7 +81,8 @@ export default [
 >npm i -D @types/react @types/react-dom  
 
 6.jest(테스팅 도구) 설치  
->npm i -D jest @types/jest @swc/core @swc/jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom@5.16.4  
+>npm i -D jest @types/jest @swc/core @swc/jest jest-environment-jsdom
+@testing-library/react @testing-library/jest-dom@5.16.4  
 6-1. jset.config.js 파일 만들기  
 
 7.Parcel 설치  
