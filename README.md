@@ -10,7 +10,7 @@
 
 2.npm init 하기  
 >npm init -y  
-2-1.[.gitignore] 파일 생성.   
+2-1.[.gitignore] 파일 생성.
 
 3.typescript 설치  
 >npm i -D typescript  # 개발도구라 -D  
@@ -18,7 +18,7 @@
 >npx tsc --init  
 3-2. tsconfig.json 파일에서 jsx 부분 주석 제거  
 
-4. ESLint 설치  
+4.ESLint 설치
 >npm i -D eslint  
 >npx eslint --init  
 -> To check syntax and find problems  
@@ -46,7 +46,7 @@ export default [
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"]  
   },  
   {  
-    languageOptions: {   
+    languageOptions: {
       ...globals.browser,  
       ...globals.jest  
     }  
@@ -76,15 +76,15 @@ export default [
   }  
 ];  
 
-5. React 설치  
->npm i react react-dom   
+5.React 설치
+>npm i react react-dom
 >npm i -D @types/react @types/react-dom  
 
-6. jest(테스팅 도구) 설치  
+6.jest(테스팅 도구) 설치  
 >npm i -D jest @types/jest @swc/core @swc/jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom@5.16.4  
 6-1. jset.config.js 파일 만들기  
 
-7. Parcel 설치  
+7.Parcel 설치  
 >npm i -D parcel  
 7-1. package.json 파일 scripts 에 아래 명령어 추가.  
 "scripts": {  
@@ -127,4 +127,4 @@ export default [
         "source.fixAll.eslint": "explicit"  
     },  
     "trailing-spaces.trimOnSave": true  
-}  
+}
